@@ -3,7 +3,7 @@ import requests
 
 
 # Server 酱 / 微信提醒 URL
-wechat_url = 'https://sc.ftqq.com/SCU52512T77e075b86690b62f884c8eeec4d6969f5cef37ed7855c.send'
+wechat_url = 'https://sc.ftqq.com/****.send'
 # Server 酱 消息题
 notify_data = {
     'text':'我是标题',

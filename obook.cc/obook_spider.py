@@ -33,8 +33,8 @@ class OBooks_Spider():
     def login(self):
         login_url = 'https://www.obook.cc/user-login.htm'
         form_data = {
-            'email': 'seend',
-            'password': 'aa4d74090a61febb3465c13966148a86',
+            'email': '****',
+            'password': '****',
         }
         self.obook_session.post(login_url, data = form_data, timeout = 30)
         print('登陆完成，尝试抓取数据')
@@ -266,7 +266,7 @@ class OBooks_Spider():
     # 发送微信消息提醒
     def wechat_notify(self, status):
         # Server 酱 / 微信提醒 URL
-        wechat_url = 'https://sc.ftqq.com/SCU52512T77e075b86690b62f884c8eeec4d6969f5cef37ed7855c.send'
+        wechat_url = 'https://sc.ftqq.com/****.send'
         # Server 酱 消息题
         notify_data = {
             'text':'我是标题',

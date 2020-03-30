@@ -9,7 +9,7 @@ from kindle8.items import Kindle8Item
 class Kindle8SpiderSpider(scrapy.Spider):
     name = 'kindle8_spider'
     allowed_domains = ['kindle8.cc']
-    start_urls = ['https://www.kindle8.cc/zzjj', 'https://www.kindle8.cc/shjk', 'https://www.kindle8.cc/rwsk', 'https://www.kindle8.cc/xxcd', 'https://www.kindle8.cc/lsjs', 'https://www.kindle8.cc/jisuanji']
+    start_urls = ['https://www.kindle8.cc/zzjj']
 
     # 小说文学 分类
     base_url = 'https://www.kindle8.cc/qtsj/page/'
